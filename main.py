@@ -48,3 +48,5 @@ for object in daily_objects:
     prompt = f"{object}, lowpoly, 3d illustration, dark background, isometric camera angle"
     print(prompt)
     prompts.append(prompt)
+
+final_file = open('prompts.txt', 'w')
