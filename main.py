@@ -43,3 +43,6 @@ daily_objects = [
 ]
 
 prompts = []
+
+for object in daily_objects:
+    print(f"{object}, lowpoly, 3d illustration, dark background, isometric camera angle")
