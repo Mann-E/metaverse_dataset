@@ -1,4 +1,3 @@
-bicycle, lowpoly, 3d illustration, dark background, isometric camera angle
 motorcycle, lowpoly, 3d illustration, dark background, isometric camera angle
 bus, lowpoly, 3d illustration, dark background, isometric camera angle
 train, lowpoly, 3d illustration, dark background, isometric camera angle
