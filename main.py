@@ -50,3 +50,8 @@ for object in daily_objects:
     prompts.append(prompt)
 
 final_file = open('prompts.txt', 'w')
+
+for prompt in prompts:
+    final_file.write(prompt + "\n")
+
+print("Done")
