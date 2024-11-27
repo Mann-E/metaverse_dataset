@@ -3,4 +3,6 @@ import json
 with open('results.json') as input_file:
     links = json.loads(input_file.read())
 
-print(links)
+for link_list in links:
+    for link in link_list:
+        print(link)
