@@ -1,0 +1,1 @@
+# Dataset for Generative Metaverse (3D assets)
