@@ -7,4 +7,10 @@ with open('results.json') as input_file:
 
 for link_list in links:
     for link in link_list:
-        print(link)
+        wget_links.append(link)
+
+with open('wget_list.txt', 'w') as wget:
+    for w in wget_links:
+        wget.write(f'{w}\n')
+
+print("Made the list")
